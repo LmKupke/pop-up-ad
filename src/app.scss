@@ -1,0 +1,46 @@
+/* Your styling here */
+$adtextcolor: #F4D748;
+$button-color: #12BFBC;
+$adbackgroundcolor: #F22FC3;
+$closebuttoncolor: #A51181;
+#ad{
+  background-color: $adbackgroundcolor;
+  padding: 40px;
+  margin: 30px;
+  border-radius: 5px;
+}
+
+#close_button {
+  float: right;
+  color: $closebuttoncolor;
+  font-weight: 800;
+}
+
+#submit {
+  color: $adbackgroundcolor;
+  margin:0px;
+  background-color: $button-color;
+}
+
+#email_input {
+  width: 70%;
+  margin: 5px;
+  padding-right: 0px;
+  border-right: 0px;
+  display: inline;
+  height: 28px;
+  color: gray;
+  background-color: $adtextcolor;
+
+}
+form {
+  display: inline;
+}
+
+p {
+  color: $adtextcolor;
+}
+
+h3 {
+  color: $adtextcolor;
+}
